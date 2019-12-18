@@ -14,8 +14,8 @@ post '/pirate' do
     Ship.new(details)
   end
  
-  @courses = Course.all
+  @ships = Ship.all
  
-  erb :student
+  erb :pirate
   end
 end
